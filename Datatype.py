@@ -32,8 +32,21 @@ elif "Sagar" not in txt:
     print("No, Sagar is not in the text.")
 
 #string methods
+text = txt.split()
+for x in text:
+    print(x)
 
 #Sequence Type: list, tuple, range
+
+#List
+print("Items in lists are:")
+namelist = ["Anil","Sagar","Suresh","Roshan"]
+newlist = namelist.copy()
+
+newlist.remove("Sagar")
+for names in newlist:
+    print(names)
+
 
 
 
